@@ -1,0 +1,78 @@
+
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.social-icons .icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color:black;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.social-icons .icon:hover {
+  background-color: #555;
+}
+
+.contact-section h1 {
+    letter-spacing: -.02em;
+    font-size: 4.5em;
+    font-weight: 300;
+    line-height: 1.1;
+    opacity: 0;
+    animation: fadeIn .5s forwards .5s;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 20px 30px;
+  border: 2px solid #333;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 30px;
+}
+
+.contact-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.resume-button{
+  display: inline-block;
+  padding: 20px 30px;
+  border: 2px solid #333;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 40px ;
+}
+
+.resume-button:hover {
+  background-color: #333;
+  color: #fff;
+}

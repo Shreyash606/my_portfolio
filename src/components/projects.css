@@ -1,0 +1,49 @@
+.page-padding {
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
+.container {
+  max-width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: lightgray;
+  margin: 20px 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.project p {
+  margin: 0;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+  background-color: #4c515b;
+}
+
+.header-text {
+  display: flex;
+  align-items: start;
+  margin: 0 0 15px;
+}
