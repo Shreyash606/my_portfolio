@@ -11,6 +11,8 @@ import project5Image from "./Resources/Distributed.png";
 import project6Image from "./Resources/FoodDelivery.png";
 import project7Image from "./Resources/Twitter.png"; // Add more images as needed
 import project8Image from "./Resources/Stocks.png";
+import project9Image from "./Resources/FlighttRACK.png";
+import project10Image from "./Resources/2PC.png";
 
 // Alternative approach: Create an images object
 const projectImages = {
@@ -22,6 +24,8 @@ const projectImages = {
   project6: project6Image,
   project7: project7Image,
   project8: project8Image,
+  project9: project9Image,
+  project10: project10Image,
 };
 
 const Projects = () => {
@@ -141,7 +145,40 @@ const Projects = () => {
         "Matplotlib",
         "API Integration",
       ],
-      link: "https://github.com/Shreyash606",
+      link: "https://github.com/Shreyash606/Financial_Bot",
+    },
+    {
+      name: "SkyTrack - Real-time Flight Tracking",
+      image: projectImages.project9, // or whichever image slot you want to use
+      description:
+        "Developed a real-time flight tracking application using OpenSky Network REST API to fetch live air traffic data and visualize aircraft positions on interactive maps. Implemented automatic data updates at regular intervals for near real-time tracking experience. Features hover information displaying aircraft callsign, origin country, velocity, and altitude with user-friendly web interface.",
+
+      technologies: [
+        "Python",
+        "Bokeh",
+        "REST API",
+        "Pandas",
+        "NumPy",
+        "OpenSky Network",
+        "Data Visualization",
+      ],
+      link: "https://github.com/Shreyash606/SkyTrack",
+    },
+    {
+      name: "Two-Phase Commit Protocol Implementation",
+      image: projectImages.project10, // or whichever image slot you want to use
+      description:
+        "Implemented a distributed Two-Phase Commit (2PC) protocol in Python with coordinator and multiple participant nodes to ensure atomicity in distributed transactions. Designed fault-tolerant system with comprehensive logging, handling network failures and participant crashes. Built multi-process communication system demonstrating consensus algorithms and distributed system coordination principles.",
+
+      technologies: [
+        "Python",
+        "Distributed Systems",
+        "2PC Protocol",
+        "Multi-threading",
+        "Network Programming",
+        "Fault Tolerance",
+      ],
+      link: "https://github.com/Shreyash606/CSE-5306-DS",
     },
   ];
 
