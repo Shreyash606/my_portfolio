@@ -33,14 +33,13 @@ const Exp = () => {
                     <span>JavaScript</span>
                     <span>Adobe Illustrator</span>
                     <span>Figma</span>
-                    
                   </div>
                 </div>
               </div>
 
               <div class="project-item">
                 <div class="project-time">
-                  <div className="text">Jan 23 - Aug 23</div>
+                  <div className="text">Jul 22 - Aug 23</div>
                 </div>
                 <div class="project-details">
                   <h3>Software Engineer Intern · Stralto Global Pvt. Ltd.</h3>
@@ -61,6 +60,8 @@ const Exp = () => {
                     <span>Node</span>
                     <span>REST APIs</span>
                     <span>Git</span>
+                    <span>MySQL</span>
+
                     <span>Figma</span>
                   </div>
                 </div>

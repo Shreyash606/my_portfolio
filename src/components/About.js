@@ -7,17 +7,18 @@ const About = () => {
     <section className="section-hero">
       <div className="page-padding">
         <div className="hero-container container">
-          <div className="hero-heading-wrapper w-embed">
+          <div className="hero-heading-wrapper">
             <h1 className="hero-heading">
               <span className="herow line-1">Shreyash Thakare</span>
             </h1>
           </div>
           <div className="hero-intro">
             <div className="hero-intro-text">
-              I'm a graduate student and a aspiring software developer. I have a
-              passion for learning and sharing my knowledge with others as
-              publicly as possible. I believe in solving real world problems
-              with technology.
+              I'm a Graduate student and Full Stack developer specializing in
+              full-stack development, AI/ML, and distributed systems. I
+              transform complex problems into elegant solutions that drive real
+              value, with a passion for continuous learning and building
+              impactful technology.
             </div>
           </div>
         </div>

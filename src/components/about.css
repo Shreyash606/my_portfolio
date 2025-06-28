@@ -99,3 +99,42 @@ h1 {
   font-size: 1rem;
 }
 }
+
+
+/* Remove hover effects and focus outlines from the name */
+.hero-heading,
+.hero-heading *,
+.herow,
+.herow.line-1 {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.hero-heading:hover,
+.hero-heading *:hover,
+.herow:hover,
+.herow.line-1:hover {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  cursor: default !important;
+}
+
+/* Remove focus states as well */
+.hero-heading:focus,
+.hero-heading *:focus,
+.herow:focus,
+.herow.line-1:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove any default text selection styling */
+.hero-heading {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -7,7 +7,6 @@ import {
   faGithub,
   faInstagram,
   faXTwitter,
-  
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -18,12 +17,11 @@ const Footer = () => {
           <div className="container">
             <div class="contact-section">
               <a
-                href="https://drive.google.com/file/d/1cKvQTVfqj4ochmoQGE1OYSxm9B1XsYHd/view?usp=sharing"
+                href="https://drive.google.com/file/d/1LVN42UWguKdrTAlv0SQy3y2moHz-TKwK/view?usp=sharing"
                 class="resume-button"
                 target="_blank"
               >
                 RESUME
-                
               </a>
               <div class="social-icons">
                 <a
@@ -73,7 +71,7 @@ const Footer = () => {
               </div>
               <h1>Looking for a Software Engineer?</h1>
               <a
-                href="mailto:shreyashthakrey606@gmail.com"
+                href="mailto:shreyashthakare1093@gmail.com"
                 class="contact-button"
               >
                 GET IN TOUCH
