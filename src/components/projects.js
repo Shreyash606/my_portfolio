@@ -56,7 +56,7 @@ const Projects = () => {
         "GitHub Actions",
         "Tailwind CSS",
       ],
-      link: "https://github.com/Shreyash606/MavsMart",
+      link: "https://mavsmart.uta.cloud/",
     },
     {
       name: "Dine Discover",
@@ -65,7 +65,7 @@ const Projects = () => {
         "Created a restaurant finder app using PHP and Yelp API, optimizing queries to handle 200+ requests/sec. Reduced SQL injection risks by 90% via prepared statements, maintaining 99.9% uptime for 500+ users.",
       projectType: "Personal Project",
       technologies: ["PHP", "Yelp API", "HTML", "CSS", "JavaScript", "MySQL"],
-      link: "https://project3-link.com",
+      link: "https://github.com/Shreyash606",
     },
     {
       name: "Process Monitor & Scheduler Simulator",
@@ -80,7 +80,7 @@ const Projects = () => {
         "Multithreading",
         "Shell Scripting",
       ],
-      link: "https://project4-link.com",
+      link: "https://github.com/Shreyash606",
     },
     {
       name: "Distributed File Storage and Computing System",
@@ -89,7 +89,7 @@ const Projects = () => {
         "Designed a multithreaded file server using gRPC, enabling concurrent file operations for 100+ users. Automated client-server synchronization, ensuring 99.9% data consistency across distributed nodes.",
 
       technologies: ["Python", "gRPC", "Multithreading", "Distributed Systems"],
-      link: "https://project3-link.com",
+      link: "https://github.com/Shreyash606",
     },
     {
       name: "Food Delivery App",
@@ -106,7 +106,7 @@ const Projects = () => {
         "CSS",
         "Git",
       ],
-      link: "https://project-link.com",
+      link: "https://github.com/Shreyash606",
     },
     {
       name: "Twitter Sentiment Analysis using Deep Learning",
@@ -124,7 +124,7 @@ const Projects = () => {
         "TensorFlow",
         "PyTorch",
       ],
-      link: "https://project-link.com",
+      link: "https://github.com/Shreyash606",
     },
     {
       name: "Stock Analysis Chatbot Assistant",
@@ -141,7 +141,7 @@ const Projects = () => {
         "Matplotlib",
         "API Integration",
       ],
-      link: "https://github.com/your_username/stock-analysis-chatbot",
+      link: "https://github.com/Shreyash606",
     },
   ];
 
