@@ -224,6 +224,13 @@ const Projects = () => {
               </div>
             ))}
           </div>
+          <div className="ai-note">
+            <p className="ai-note-text">
+              <span className="ai-icon">🤖</span>
+              All project tile images are AI-generated for visual representation
+              purposes.
+            </p>
+          </div>
         </div>
       </div>
     </section>
