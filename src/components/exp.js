@@ -42,7 +42,7 @@ const Exp = () => {
                   <div className="text">Jul 22 - Aug 23</div>
                 </div>
                 <div class="project-details">
-                  <h3>Software Engineer Intern · Stralto Global Pvt. Ltd.</h3>
+                  <h3>Software Engineer· Stralto Global Pvt. Ltd.</h3>
                   <p>
                     Led a UI overhaul for Stralto Global’s EHS Software, Clide
                     Analyzer, using JavaScript and ReactJS, reducing user error
